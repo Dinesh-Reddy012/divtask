@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .diva {
+        border:2px solid;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+      }
+      .div1 {
+        border: 2px solid black;
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      }
+      .div1 div {
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 100px;
+        width: 100px;
+      }
+      .div2 {
+        border: 2px solid black;
+        display: flex;
+        gap:40px;
+        justify-content: space-evenly;
+        padding: 20px;
+        flex-wrap: wrap;
+
+      }
+      .div2 div{
+        
+        border:2px solid;
+        height:200px;
+        width:100px;
+      }
+      .div2_2{
+        flex-grow: 1;
+      }
+      .div3{
+        border:2px solid;
+        display: flex;
+        justify-content: space-evenly;
+        gap:50px;
+        padding:20px;
+        flex-wrap: wrap;
+        
+      }
+      .div3 div{
+        border:2px solid black;
+        height: 100px;
+        width:100px;
+        border-radius: 15px;
+      }
+      .img1{
+        /* height:100px;
+        width: 100px;
+        border-radius:10px; */
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+      }
+      img{
+        height: 100%;
+        width: 100%;
+      }
+      .img3{
+        height: 100%;
+        width:100%;
+        border-radius:15px ;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="diva">
+      <div class="div1">
+        <div><img class="img1" src="./Assets/images/dhoni.webp" alt=""></img></div>
+        <div><img class="img1" src="./Assets/images/jadeja.jpg" alt=""></img></div>
+        <div><img  class="img1" src="./Assets/images/Jasprit-Bumrah.jpg" alt=""></img></div>
+        <div><img class="img1" src="./Assets/images/kapil.jpg" alt=""></img></div>
+      </div>
+      <div class="div2">
+        <div><img  src="./Assets/images/Mohammed-Shami.jpg" alt=""></img></div>
+        <div class="div2_2"><img src="./Assets/images/rohit-virat combo.avif" alt=""></img></div>
+        <div><img src="./Assets/images/Rohit Sharma.jpg" alt=""></img></div>
+      </div>
+      <div class="div3">
+        <div><img class="img3" src="./Assets/images/sachin-tendulkar-ipl.jpg" alt=""></img></div>
+        <div><img class="img3" src="./Assets/images/virender-sehwag.jpg" alt=""></img></div>
+        <div><img class="img3" src="./Assets/images/zaheer.webp" alt=""></img></div>
+      </div>
+    </div>
+  </body>
+</html>
